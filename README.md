@@ -1,4 +1,8 @@
 # Salesforce PayPal Transactions Integration
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
 
 This repository provides a lightweight outbound integration from Salesforce to PayPal using Scheduled and Queueable Apex. It asynchronously retrieves transactions from PayPal's Transactions REST API endpoint [here](https://developer.paypal.com/docs/api/transaction-search/v1/#search_get) and pushes them into a Salesforce custom object called 'PayPal_Transaction__c' as records.
 
